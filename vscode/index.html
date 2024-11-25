@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Rumo a Londres e Nova York</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-londres.png" alt="">
+            <p>Eu estava em casa quando encontrei um bilhete misterioso: "Seu destino te aguarda em Londres e Nova York". Decidi seguir o roteiro de viagem e embarcar nessa aventura!</p>
+            <button class="btn-proximo" data-proximo="1">Londres</button>
+            <button class="btn-proximo" data-proximo="2">Nova York</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Londres, visitando o icônico Big Ben. Logo percebe que há uma pista misteriosa sobre o próximo destino.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o Big Ben</button>
+            <button class="btn-proximo" data-proximo="4">Explorar o Museu Britânico</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Em Nova York, você começa sua viagem pela Times Square. A cidade está vibrante e cheia de vida. Onde você vai primeiro?</p>
+            <button class="btn-proximo" data-proximo="5">Visitar a Estátua da Liberdade</button>
+            <button class="btn-proximo" data-proximo="6">Explorar Central Park</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você encontra uma pista na base do Big Ben, indicando que o próximo local para visitar é Nova York.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Nova York</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-museu-britanico.png" alt="imagem do Museu Britânico">
+            <p>No Museu Britânico, você encontra um mapa antigo, revelando que o próximo destino é Central Park em Nova York.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Nova York</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Após uma longa travessia pelo mar, você chega à Estátua da Liberdade e encontra uma carta com novas pistas sobre o que fazer em Nova York.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para a próxima pista em Nova York</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Enquanto explora Central Park, você encontra um antigo diário que revela segredos sobre os próximos passos da viagem.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para a próxima pista em Nova York</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você chega em Nova York e se depara com a emblemática Times Square. A pista leva você para o Central Park.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o Central Park</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você segue para o próximo destino e se encontra no Empire State Building, onde descobre a entrada secreta para uma cidade mística dentro de Nova York.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar a cidade secreta</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>No Central Park, você encontra uma pista que revela um segredo escondido, levando a um misterioso local.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir para o próximo passo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-cidade-secreta.png" alt="Explorando a cidade secreta">
+            <p>Dentro da cidade secreta, você encontra tesouros históricos e decide dedicar sua vida à preservação desses achados.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
